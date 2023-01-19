@@ -21,9 +21,14 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSortModule } from '@angular/material/sort';
 import { StudentDatabasePageComponent } from './components/student-database-page/student-database-page.component';
+import { StudentAddEditComponent } from './components/student-add-edit/student-add-edit.component';
 
 @NgModule({
-  declarations: [AppComponent, StudentDatabasePageComponent],
+  declarations: [
+    AppComponent,
+    StudentDatabasePageComponent,
+    StudentAddEditComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

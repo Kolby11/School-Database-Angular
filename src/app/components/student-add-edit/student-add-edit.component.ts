@@ -2,7 +2,6 @@ import { StudentService } from './../services/student.service';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { DialogRef } from '@angular/cdk/dialog';
-import { AppModule } from 'src/app/app.module';
 
 @Component({
   selector: 'app-student-add-edit',
